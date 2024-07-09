@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Titillium+Web&display=swap">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            color: #fff;
+        }
+        header {
+            background-color: #333;
+            color: #ffc0cb;
+            padding: 2rem;
+            text-align: center;
+            position: relative;
+            font-family: 'Baskervville SC', serif;
+        }
+         .header-image img {
+            width: 250px;
+            height: 250px;
+            display: block;
+            margin: 0 auto;
+        }
+        .header-content {
+            margin-top: 20px;
+        }
+        .header-content .notification {
+            position: absolute;
+            top: 10px;
+            right: 70px;
+        }
+        .header-content h1 {
+            font-size: 4rem;
+            margin: 0;
+        }
+        .header-content p {
+            font-size: 1.2rem;
+            margin: 10px 0 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+            background-color: #444;
+			  font-family: 'Titillium Web', sans-serif;
+        }
+        nav a {
+            color: #ffc0cb;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
+        nav a:hover {
+            background-color: #555;
+			  
+        }
+        nav .search-container {
+            display: flex;
+            align-items: center;
+        }
+        nav .search-container input {
+            padding: 0.5rem;
+            border-radius: 4px 0 0 4px;
+            border: none;
+            outline: none;
+        }
+        nav .search-container button {
+            padding: 0.5rem;
+            border-radius: 0 4px 4px 0;
+            border: none;
+            background-color: #ffc0cb;
+            color: #333;
+            cursor: pointer;ns-
+			 
+        }
+        nav .social-icons {
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+        nav .social-icons a {
+            color: #ffc0cb;
+            margin-left: 10px;
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 1000px;
+            background-color: #fff;
+            border-radius: 8px;
+            color: #333;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+       #about {
+            background-color: #ffc0cb;
+            color: #333;
+            font-family: 'Titillium Web', sans-serif;
+        }
+        .timeline {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            margin-top: 65px;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 38%;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: #B95F93;
+        }
+        .timeline-item {
+            text-align: center;
+            width: 18%;
+            position: relative;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: 90px;
+            border-radius: 30%;
+            background: #fff;
+            border: 2px solid #ddd;
+            z-index: -1;
+        }
+        .timeline-item h4 {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .timeline-item p {
+            margin: 0;
+            font-size: 14px;
+            color: #666;
+        }
+        .timeline-item span {
+            display: block;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+		/* Slider styles */
+            .slider {
+            position: relative;
+            max-width: 80%;
+            margin: 2rem auto;
+            overflow: hidden;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+        }
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .slides img {
+            width: 50%;
+            height: auto;
+            flex-shrink: 0;
+        }
+        </style>
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index-html #home.html">Home</a>
+    <a href="index-html #experience.html">Experience</a>
+    <a href="index-html #skills.html">Skills</a>
+    <a href="index-html #contact.html">Contact</a>
+    <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+    </div>
+</nav>
+
+<header>
+    <div class="header-image">
+        <img src="photo_2024-07-09_00-47-18.jpg" alt="Profile Picture">
+    </div>
+    <div class="header-content">
+        <div class="notification">
+            <i class="fa fa-bell"></i>
+        </div>
+        <h1>Batrisyia's Portfolio</h1>
+        <p>Welcome to my portfolio !</p>
+    </div>
+</header> 
+
+<section id="about">
+   <h2>About Me</h2>
+    <p>Hello! I'm Batrisyia Zahra Mohd Azhar. Born in 24th April 2005.I'm a student from UiTM Alor Gajah. Born in Kuala Terengganu but currently living in Klang, Selangor. I specialized in creating illustration and have a few job experience in the past. With a passion in animation and editing, I have dedicated my academic journey to gaining knowledge and skills in those areas.
+
+Feel free to explore and learn more about my academic journey, the projects I’ve been involved in, and the skills I am developing. Thank you for visiting, and I look forward to the opportunity to share my journey with you.</p>
+	
+	 <!-- Image Slider -->
+    <div class="slider">
+        <div class="slides">
+            <img src="photo_2024-07-08_02-43-58.jpg" alt="Slide 1">
+            <img src="photo_2024-07-08_02-43-58 (2).jpg" alt="Slide 2">
+            <img src="photo_2024-07-08_02-43-58 (3).jpg" alt="Slide 3">
+			<img src="photo_2024-07-08_02-43-58 (4).jpg" alt="Slide 4">
+        </div>
+    </div>
+
+   <div class="timeline">
+		<h2>Education Timeline</h2>
+        <div class="timeline-item">
+            <span>2012-2017</span>
+            <h4>Primary School</h4>
+            <p>SEKOLAH KEBANGSAAN MERU</p>
+        </div>
+        <div class="timeline-item">
+            <span>2018-2021</span>
+            <h4>Secondary School</h4>
+            <p>SEKOLAH AGAMA MENENGAH NURUL IMAN</p>
+        </div>
+        <div class="timeline-item">
+            <span>2022-2023</span>
+            <h4>Secondary School</h4>
+            <p>SEKOLAH MENENGAH (P) KAPAR</p>
+        </div>
+        <div class="timeline-item">
+            <span>2023- Now</span>
+            <h4>Diploma</h4>
+            <p>UiTM ALOR GAJAH (DIPLOMA IN DIGITAL MEDIA COMMUNICATION TECHNOLOGY)</p>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <p>&copy; 2024 Batrisyia Zahra. All rights reserved.</p>
+</footer>
+
+<!-- FontAwesome for icons (used in the social icons and notification) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	
+	<script>
+    const slides = document.querySelectorAll('.slides img');
+    let currentIndex = 0;
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.style.display = i === index ? 'block' : 'none';
+        });
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % slides.length;
+        showSlide(currentIndex);
+    }
+
+    setInterval(nextSlide, 3000); // Change slide every 3 seconds
+    showSlide(currentIndex);
+</script>
+
+</body>
+</html>
+
